@@ -1,6 +1,6 @@
 <?php
 
-	abstract class Singleton {
+	abstract class ExtendingSingleton {
         protected static $_instance = [];
 
         public static function getInstance() {
