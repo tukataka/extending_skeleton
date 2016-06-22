@@ -19,6 +19,10 @@ abstract class ExtendingSingleton {
         return self::$_instance[static::class]->_container->$name($arguments);
     }
 
+    public function __callStatic($name, $arguments) {
+        return self::$_instance[static::class]->_container::$name($arguments);
+    }
+
     protected function __clone() {}
     protected function __construct() {}
     protected function __wakeup() {}
