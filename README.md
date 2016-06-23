@@ -1,8 +1,4 @@
 # ExtendingSkeleton
 PHP skeleton class with opportunity to extend
 
-# TODO
-Make tests
-
-# For
-It can help for your project to make unit-testing
+Class is for studying late static binding and skeleton pattern. But if you have idea how it can usage, please write me on: niki-isak@yandex.ru.
